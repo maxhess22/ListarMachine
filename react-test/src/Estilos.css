@@ -1,0 +1,21 @@
+@import './css/buscador.css';
+@import './css/botones.css';
+@import './css/Lista.css';
+@import './css/globales.css';
+
+
+
+body {
+    background: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Contador {
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 32px 0;
+}
+
+
+

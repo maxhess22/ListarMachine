@@ -1,0 +1,35 @@
+.Complete  {
+    border: none;
+    background-color: white;
+    align-self: center;
+    padding: 16px;
+    fill: black;
+}
+.Complete svg:hover {
+    fill: green;
+}
+.Delete {
+    font-size: 25px;
+    border: none;
+    background-color: white;
+    align-self: flex-start;
+    right: 0;
+    top: -20px;
+}
+.Delete:hover {
+    color: red;
+}
+.ButtonCrear{
+    font-size: 24px;
+    padding: 0px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid seagreen;
+    background-color: forestgreen;
+    color: white;
+    box-shadow: 0 0 10px 10px royalblue;
+}
