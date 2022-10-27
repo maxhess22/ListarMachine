@@ -28,7 +28,9 @@ function App() {
     valoresBuscados = lista.filter(busqueda => {
       const listaTexto = busqueda.text.toLowerCase();
       const busquedaTexto = valorBusqueda.toLowerCase();
-      return listaTexto.includes(valorBusqueda);
+      return (
+        listaTexto.includes(busquedaTexto));
+        
     })
   }
 
