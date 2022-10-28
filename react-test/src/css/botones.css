@@ -1,8 +1,9 @@
 .Complete  {
-    border: none;
+    border: 1px solid gray;
     background-color: white;
     align-self: center;
-    padding: 16px;
+    padding: 4px;
+    margin: 16px;
     fill: black;
 }
 .Complete svg:hover {

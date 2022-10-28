@@ -16,7 +16,26 @@
     margin: 16px auto;
     width: 50%;
 }
+.Elemento_completado{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    background-color: white;
+    border: 1px solid seagreen;
+    border-radius: 8px;
+    color: black;
+    margin: 16px auto;
+    width: 50%;
+}
 .Elemento p {
+    align-self: center;
+}
+.Elemento_completado button {
+    fill: green;
+}
+.Elemento_completado p {
+    text-decoration: line-through;
+    text-align: center;
     align-self: center;
 }
 ul{
